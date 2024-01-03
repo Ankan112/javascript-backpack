@@ -6,3 +6,11 @@ const result = arr.reduce(
   initialState
 );
 console.log(result);
+
+function findLargestNumber(data) {
+  return Math.max(...data);
+}
+console.log(findLargestNumber(arr), arr);
+
+const randomNumber = Math.round(Math.random() * 1000000);
+console.log(randomNumber >= 100000 && randomNumber);
