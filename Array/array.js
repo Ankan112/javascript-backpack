@@ -14,3 +14,6 @@ console.log(findLargestNumber(arr), arr);
 
 const randomNumber = Math.round(Math.random() * 1000000);
 console.log(randomNumber >= 100000 && randomNumber);
+
+const nums =['ankan','halder','ashim','raton']
+console.log(nums.join(' '))
