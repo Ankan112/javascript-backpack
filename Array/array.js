@@ -17,3 +17,6 @@ console.log(randomNumber >= 100000 && randomNumber);
 
 const nums =['ankan','halder','ashim','raton']
 console.log(nums.join(' '))
+
+const sentance ="People don't care what you say, They care about what you build!"
+console.log(sentance.slice(0,8)+'...')
