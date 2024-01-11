@@ -18,9 +18,10 @@ string.at() // include in 2022 & support all the modern browsers
 /* 
 substring() is similar to slice().
 The difference is that start and end values less than 0 are treated as 0 in substring().
-
+substr is deprecated now but the use case is second parameter first parameter to second parameter length. Jemon ami 4 length er por theke aro 10 length porjonto chi
 They work with length
 */
 
-console.log(sentence.slice(4, 12));
-console.log(sentence.substring(4, 6));
+// console.log(sentence.slice(4, 12) + "...");
+// console.log(sentence.substring(4, 6) + "...");
+// console.log(sentence.substr(4, 10) + "...");
