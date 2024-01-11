@@ -25,3 +25,12 @@ They work with length
 // console.log(sentence.slice(4, 12) + "...");
 // console.log(sentence.substring(4, 6) + "...");
 // console.log(sentence.substr(4, 10) + "...");
+
+//! Converting to Upper and Lower Case
+
+/* 
+A string is converted to upper case with toUpperCase():
+A string is converted to lower case with toLowerCase():
+*/
+console.log(sentence.toUpperCase());
+console.log(sentence.toLowerCase());
