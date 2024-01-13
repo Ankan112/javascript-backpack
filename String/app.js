@@ -34,3 +34,10 @@ A string is converted to lower case with toLowerCase():
 */
 console.log(sentence.toUpperCase());
 console.log(sentence.toLowerCase());
+
+//! JavaScript String concat()
+
+let text1 = "Ankan";
+let text2 = "Halder";
+let text3 = text1.concat(" ", text2);
+console.log(text3);
