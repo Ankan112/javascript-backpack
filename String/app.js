@@ -32,12 +32,17 @@ They work with length
 A string is converted to upper case with toUpperCase():
 A string is converted to lower case with toLowerCase():
 */
-console.log(sentence.toUpperCase());
-console.log(sentence.toLowerCase());
+// console.log(sentence.toUpperCase());
+// console.log(sentence.toLowerCase());
 
 //! JavaScript String concat()
 
-let text1 = "Ankan";
-let text2 = "Halder";
-let text3 = text1.concat(" ", text2);
-console.log(text3);
+// let text1 = "Ankan";
+// let text2 = "Halder";
+// let text3 = text1.concat(" ", text2);
+// console.log(text3);
+
+//! JavaScript String trim()
+
+let text1 = "      Hello World!      ";
+let text2 = text1.trim();
