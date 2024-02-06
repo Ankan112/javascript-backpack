@@ -1,6 +1,6 @@
 //! JavaScript String Length
 
-const sentence = "I like Cricket more than Football! Because Cricket makes me hppay all time";
+const sentence = "I like Cricket more than Football! Because Cricket mappay all time";
 // console.log(sentence.length);
 
 //! JavaScript charAt, charCodeAt, & at method
