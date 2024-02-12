@@ -1,6 +1,7 @@
 //! JavaScript String Length
 
-const sentence = "I like Cricket more than Football! Because Cricket mappay all time";
+const sentence =
+  "I like Cricket more than Football! Because Cricket mappay all time";
 // console.log(sentence.length);
 
 //! JavaScript charAt, charCodeAt, & at method
@@ -44,7 +45,7 @@ A string is converted to lower case with toLowerCase():
 
 //! JavaScript String trim()
 
-let text1 = "      Hello World!  Hello world!";
+let text1 = "   Hello World!  Hello world!";
 // let text2 = text1.trim();
 let text2 = text1.trimStart();
 console.log(text2);
