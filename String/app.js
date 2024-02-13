@@ -45,7 +45,7 @@ A string is converted to lower case with toLowerCase():
 
 //! JavaScript String trim()
 
-let text1 = "   Hello World!  Hello world!";
+let text1 = "   Hello World! ";
 // let text2 = text1.trim();
 let text2 = text1.trimStart();
 console.log(text2);
